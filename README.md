@@ -74,9 +74,19 @@ python main.py
 ```
 The GUI window will open.
 
+---
+
 ## How to Use
 - Enter a 32‑character MD5 hash in the input field.
 - Click Browse and select a dictionary .txt file.
 - Click Start Attack.
 - Observe the real‑time output in the scrolled text area.
 - If the password is found, it will be displayed.
+
+---
+
+## Limitations
+- GUI may freeze during large dictionary attacks
+- Only supports MD5
+- No pause/stop feature
+- Not optimized for large wordlists
